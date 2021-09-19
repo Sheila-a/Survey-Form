@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+body {
+    font-family: 'poppins';
+    /* background-color: rgb(134, 80, 185); */
+    /* background-image: url(./second\ image.png) ; */
+    background-color: rgb(204, 177, 230);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 0px;
+} 
+
+
+/* Header section below */
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(34, 7, 59);   
+    /* background-color: rgb(145, 5, 145); */
+    background-attachment: fixed;
+    border: none;
+    height: 80px;
+    width: 100%;  
+}
+
+.nav__logo {
+    width: 5%;
+    margin-left: 20px;
+}
+
+.nav__log {
+    margin-left: 30px; 
+    padding-bottom: 0px;
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.nav__list {
+    
+    margin: 10px;  
+    padding-top: 0px; 
+    font-size: 12px; 
+    text-align: left;
+    margin-left: 5px;
+    color: gray;
+    text-decoration: none;
+    font-weight: 5px;
+    text-transform: capitalize;
+}
+/* Header section above */
+
+
+/* Head Section below */
+.card__title {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: white;
+}
+
+.card__description {
+    margin-top: 0px;
+    font-size: 20px;
+}
+/*Head Section above*/
+
+
+/* Form Section below*/
+.card {
+    margin-left: 330px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border: black;    
+    border-radius: 20px;
+    box-shadow: 0px 5px 0px 5px rgb(204, 177, 230);
+    background-color: rgb(134, 80, 185);
+    width: 700px;
+}
+
+.headbox {
+    width: 600px;
+    padding: 10px 5px 10px 5px; 
+    margin-top: 0px;
+    border-radius: 5px;
+    font-family: 'poppins';
+}
+
+.heads {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 42px;
+    color: white;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-control {
+    padding: 10px 5px 10px 5px; 
+    margin-top: 0px;
+    border-radius: 5px;
+    display: block;
+    width: 610px;
+    margin-left: 40px;
+    font-family: 'poppins';
+    color: #495057;
+}
+
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.headbox:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.dropdown {
+    position: sticky;
+    display: inline-block;
+}
+
+.dropbtn {
+    width: 610px;
+    padding: 10px 5px 10px 5px; 
+    margin-top: 0px;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    color: white;
+    font-size: 2px;
+    background-color: grey;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    display: flex;
+    background-size: 5px;
+    justify-content: space-around;
+}
+
+.dropdown-content {
+    margin-top: 0px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 50px;
+    box-shadow: royalblue;
+    padding: 12px 16px;
+    z-index: 1;
+} 
+
+.custom-select {
+    position: relative;
+    width: 600px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ .dropcolor {
+    width: 565px;
+    padding: 10px 5px 10px 5px; 
+    margin-top: 0px;
+    border-radius: 5px;
+} 
+.dropcolor:hover {
+    background-color: violet;
+    min-width: inherit;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Form Section above*/
+
+
+/* Radio section below */
+.radio__list {
+    text-align: left;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+/* Radio section above */
+
+
+/* Checkbox Section below */
+.checkbox__list {
+    text-align: left;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+/* Checkbox Section above */
+
+
+#input {
+    padding-bottom: 100px;
+}
+
+/* Submit below */
+.submit__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: violet;
+    border: none;
+
+}     
+.submit {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: none;
+    width: 600px;
+    background-color: violet;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.submit:hover {
+    opacity: .5;
+    transition: ease all .3s;
+}
+/* Submit below */
+
