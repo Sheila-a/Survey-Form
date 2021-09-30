@@ -17,10 +17,9 @@ body {
 /* Header section below */
 .nav {
     position: sticky;
-    top: 0;
     background-color: rgb(34, 7, 59);   
     /* background-color: rgb(145, 5, 145); */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     border: none;
     height: 80px;
     width: 100%;  
